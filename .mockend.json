@@ -88,7 +88,7 @@
         },
         "transactionType": {
             "string": ["D", "C"]
-        }
+        },
         "sva": {
             "string": ["91000000151"]
         },
