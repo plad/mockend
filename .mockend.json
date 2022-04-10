@@ -1,18 +1,53 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+    "Post": {
+        "title": {
+            "string": {}
+        },
+        "comments": {
+            "hasMany": "Comment"
+        }
+    },
+
+    "Comment": {
+        "body": {
+            "string": {}
+        },
+        "post": {
+            "belongsTo": "Post"
+        }
+    },
+
+    "User": {
+        "title": {
+            "string": {}
+        }
+    },
+
+    "History": {
+        "transactionLogId": "4359",
+        "ResponseCode": "000",
+        "totalCount": "1",
+        "values": [{
+                "walletType": "INTERNAL",
+                "transactionLogId": 4163,
+                "transactionCode": "WC1",
+                "transactionName": "WALLET TO CARD",
+                "transactionType": "D",
+                "sva": "91000000151",
+                "amount": "AED 10.00",
+                "transactionAmount": "000000001000",
+                "retrievalReferenceNumber": "251240402888",
+                "date": "20220407",
+                "transactionDate": "07-Apr-22",
+                "account": "91000000151",
+                "transactionDescription": "WALLET TO CARD-251240402888-483420",
+                "currency": "784",
+                "transactionStatus": null,
+                "mcc": "N/A",
+                "merchantName": "N/A",
+                "narration": "WC1 - 483420 - 251240402888"
+            }
+        ]
     }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  },
-  
-  "User": {
-        "title": {"string": {}}
-    }
+
 }
