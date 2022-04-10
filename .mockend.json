@@ -63,7 +63,7 @@
             "string": ["1111", "2222"]
         },
         "ResponseCode": {
-            "string": ["000", "111"]]
+            "string": ["000", "111"]
         },
         "totalCount": {
             "string": ["1", "2"]
