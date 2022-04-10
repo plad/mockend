@@ -59,18 +59,18 @@
     }
 
     "History": {
-        "transactionLogId": "string": [
+        "transactionLogId": {"string": [
             "1111",
             "2222"
-        ],
-        "ResponseCode": "string": [
+        ]},
+        "ResponseCode": {"string": [
             "000",
             "111"
-        ],
-        "totalCount": "string": [
+        ]},
+        "totalCount": {"string": [
             "1",
             "2"
-        ]
+        ]}
     }
 
 }
