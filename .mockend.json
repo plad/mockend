@@ -70,7 +70,7 @@
         }
     },
 
-    "Abc": {
+    "Values": {
         "walletType": {
             "string": ["INTERNAL"]
         },
