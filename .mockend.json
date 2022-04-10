@@ -67,6 +67,9 @@
         },
         "totalCount": {
             "string": ["1", "2"]
+        },
+        "values": {
+            "hasMany": "Abc"
         }
     },
 
