@@ -73,4 +73,14 @@
         ]}
     }
 
+    
+    "values": 
+        {
+            "walletType": {"string": ["INTERNAL"]},
+            "transactionLogId": { "int": { "min": 1111, "max": 9999 } },
+            "transactionCode": {"string": ["WC1"]},
+            "transactionName": {"string": ["WALLET TO CARD"]},
+            "transactionType": {"string": ["D","C"]"
+        }
+
 }
