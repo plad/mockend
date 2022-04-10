@@ -68,12 +68,12 @@
         "totalCount": {
             "string": ["1", "2"]
         },
-        "values": {
-            "hasMany": "values"
+        "Values": {
+            "hasMany": "Abc"
         }
     },
 
-    "values": {
+    "Abc": {
         "walletType": {
             "string": ["INTERNAL"]
         },
