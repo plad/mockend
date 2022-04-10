@@ -1,14 +1,14 @@
 {
-  "User": {
-    "title": {
-      "string": {}
+    "User": {
+        "title": {
+            "string": {}
+        }
     }
-  }
-  
+}{
     "EMP": {
-    "title": {
-      "string": {}
+        "title": {
+            "string": {}
+        }
     }
-  }
-  
+
 }
