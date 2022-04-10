@@ -58,30 +58,8 @@
         }
     }
 
-    "History": { {
-            "transactionLogId": {
-                "string": {}
-            },
-            "ResponseCode": {
-                "string": {}
-            },
-            "totalCount": {
-                "int": {
-                    "min": 1,
-                    "max": 5
-                }
-            }
-        },
-        "values": [{
-                "walletType": {
-                    "string": {}
-                },
-                "transactionLogId": {
-                    "string": {}
-                },
-            }
-        ]
-    }
-}
+
+
+
 
 }
