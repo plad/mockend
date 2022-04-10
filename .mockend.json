@@ -1,6 +1,5 @@
 {
-	
-	
+
     "Post": {
         "title": {
             "string": {}
@@ -9,8 +8,6 @@
             "hasMany": "Comment"
         }
     },
-
-
 
     "Comment": {
         "body": {
@@ -21,16 +18,12 @@
         }
     },
 
-
-
     "User": {
         "title": {
             "string": {}
         }
     },
-	
-	
-	
+
     "Test": {
         "cover": {
             "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
@@ -64,8 +57,31 @@
             }
         }
     }
-	
-	
-	
-	
+
+    "History": { {
+            "transactionLogId": {
+                "string": {}
+            },
+            "ResponseCode": {
+                "string": {}
+            },
+            "totalCount": {
+                "int": {
+                    "min": 1,
+                    "max": 5
+                }
+            }
+        },
+        "values": [{
+                "walletType": {
+                    "string": {}
+                },
+                "transactionLogId": {
+                    "string": {}
+                },
+            }
+        ]
+    }
+}
+
 }
