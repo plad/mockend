@@ -22,32 +22,40 @@
             "string": {}
         }
     },
-
-    "History": {
-        "transactionLogId": "4359",
-        "ResponseCode": "000",
-        "totalCount": "1",
-        "values": [{
-                "walletType": "INTERNAL",
-                "transactionLogId": 4163,
-                "transactionCode": "WC1",
-                "transactionName": "WALLET TO CARD",
-                "transactionType": "D",
-                "sva": "91000000151",
-                "amount": "AED 10.00",
-                "transactionAmount": "000000001000",
-                "retrievalReferenceNumber": "251240402888",
-                "date": "20220407",
-                "transactionDate": "07-Apr-22",
-                "account": "91000000151",
-                "transactionDescription": "WALLET TO CARD-251240402888-483420",
-                "currency": "784",
-                "transactionStatus": null,
-                "mcc": "N/A",
-                "merchantName": "N/A",
-                "narration": "WC1 - 483420 - 251240402888"
+    {
+        "Test": {
+            "cover": {
+                "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+            },
+            "title": {
+                "loremWords": {
+                    "minLength": 5,
+                    "maxLength": 20
+                }
+            },
+            "body": {
+                "loremParagraphs": {
+                    "minLength": 10,
+                    "maxLength": 100
+                }
+            },
+            "tag": {
+                "string": [
+                    "one",
+                    "two",
+                    "three"
+                ]
+            },
+            "isDraft": {
+                "boolean": {}
+            },
+            "createdAt": {
+                "dateTime": {
+                    "min": "2010-01-01T00:00:00Z",
+                    "max": "2020-12-31T23:59:59Z"
+                }
             }
-        ]
+        }
     }
 
 }
