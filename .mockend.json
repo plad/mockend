@@ -10,5 +10,9 @@
     "post": {
       "belongsTo": "Post"
     }
-  }
+  },
+  
+  "User": {
+        "title": {"string": {}}
+    }
 }
