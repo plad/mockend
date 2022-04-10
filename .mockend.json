@@ -69,11 +69,11 @@
             "string": ["1", "2"]
         },
         "values": {
-            "hasMany": "Abc"
+            "hasMany": "values"
         }
     },
 
-    "Abc": {
+    "values": {
         "walletType": {
             "string": ["INTERNAL"]
         },
