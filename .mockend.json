@@ -89,5 +89,44 @@
         "transactionType": {
             "string": ["D", "C"]
         }
+        "sva": {
+            "string": ["91000000151"]
+        },
+        "amount": {
+            "string": ["AED 10.00"]
+        },
+        "transactionAmount": {
+            "string": ["000000001000"]
+        },
+        "retrievalReferenceNumber": {
+            "string": ["251240402888"]
+        },
+        "date": {
+            "string": ["20220407"]
+        },
+        "transactionDate": {
+            "string": ["07-Apr-22"]
+        },
+        "account": {
+            "string": ["91000000151"]
+        },
+        "transactionDescription": {
+            "string": ["WALLET TO CARD-251240402888-483420"]
+        },
+        "currency": {
+            "string": ["784"]
+        },
+        "transactionStatus": {
+            "string": ["null"]
+        },
+        "mcc": {
+            "string": ["N/A"]
+        },
+        "merchantName": {
+            "string": ["N/A"]
+        },
+        "narration": {
+            "string": ["WC1 - 483420 - 251240402888"]
+        }
     }
 }
