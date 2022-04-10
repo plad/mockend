@@ -70,7 +70,7 @@
         }
     },
 
-    "Values": {
+    "Values1": {
         "walletType": {
             "string": ["INTERNAL"]
         },
